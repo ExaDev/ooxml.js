@@ -2,6 +2,8 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/ExaDev/ooxml.js) [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/ooxml.js) [![Release](https://img.shields.io/github/v/release/ExaDev/ooxml.js)](https://github.com/ExaDev/ooxml.js/releases/latest) [![CI](https://img.shields.io/github/actions/workflow/status/ExaDev/ooxml.js/ci.yml?branch=main)](https://github.com/ExaDev/ooxml.js/actions)
 
+> **This repository has moved.** `ooxml.js` now lives at [`packages/ooxml.js`](https://github.com/ExaDev/documents.js/tree/main/packages/ooxml.js) in the [`ExaDev/documents.js`](https://github.com/ExaDev/documents.js) monorepo. This repository is archived and will receive no further commits, releases, issues, or pull requests — file issues and send pull requests against the monorepo instead. The npm package itself is unaffected: `ooxml.js` keeps publishing from its new home under the same name.
+
 > Type-safe, lossless round-trip conversion between OOXML packages (`.docx`, `.pptx`, `.xlsx`) and a faithful JSON model, built on [Zod 4](https://zod.dev) codecs.
 
 An OOXML file is a ZIP of parts (an OPC "package"): `[Content_Types].xml`, relationships, XML content, and binary parts. `ooxml.js` decodes the whole package to faithful JSON and encodes it back part-for-part.
